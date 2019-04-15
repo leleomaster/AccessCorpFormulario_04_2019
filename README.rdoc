@@ -1,0 +1,12 @@
+alterarções/configurações para acessar a API e o Banco de Dados
+
+1 - API
+	a - abra o arquivo "requestsAPIs.js" em "seu_path/AccessCorpFormulario/AccessCorpFormulario.Web/Scripts/requestsAPIs.js" e altere a variável dominio para sua porta local, caso esteja diferente.
+
+2 - Banco de Dados
+	
+	a - abra o arquivo "web.config" em "seu_path/AccessCorpFormulario/AccessCorpFormulario.Web/Web.config" e altere o "Data Source" para o seu Banco local.
+	b - abra o arquivo "web.config" em "seu_path/AccessCorpFormulario/AccessCorpFormulario.Apresentation.API/Web.config" e altere o "Data Source" para o seu Banco local.
+	
+Obs: se você estiver com problemas de "Referência", excluir a pasta "Packages" em "seu_path/AccessCorpFormulario/packages".
+	Após fazer isso clique com o botão direito na solution do projeto e em Restore NuGet Packages. :)
