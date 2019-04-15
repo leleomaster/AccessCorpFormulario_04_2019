@@ -1,0 +1,131 @@
+﻿@model AccessCorpFormulario.Domain.ModelView.CadastroFormularioCampoModelView
+
+@{
+    ViewBag.Title = "Cadastro";
+}
+
+<h2>Cadasto de Formulario</h2>
+
+<hr />
+
+@using (Html.BeginForm("Cadastro", "Formulario", FormMethod.Post, new { id = "idFormulario" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <fieldset>
+            <legend>Informações do Formulário</legend>
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.NomeFormulario, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.NomeFormulario, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.NomeFormulario, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.DataVencimentoInicio, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    <div class='input-group'>
+                        @Html.EditorFor(model => model.DataVencimentoInicio, new { htmlAttributes = new { @maxlength = 10, @class = "form-control date_time_picker" } })
+                        <span id="error-data-vencimento-inicio"
+                              class="field-validation-valid text-danger"
+                              data-valmsg-replace="true"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.DataVencimentoFim, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    <div class='input-group'>
+                        @Html.EditorFor(model => model.DataVencimentoFim, new { htmlAttributes = new { @maxlength = 10, @class = "form-control date_time_picker" } })
+                        <span id="error-data-vencimento-fim"
+                              class="field-validation-valid text-danger"
+                              data-valmsg-replace="true"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.DescricaoFormulario, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.DescricaoFormulario, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.DescricaoFormulario, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </fieldset>
+        <hr />
+        <fieldset>
+            <legend>Campos do Formulário</legend>
+            <div class="form-group">
+                <label class="control-label col-md-2" for="idTipoCampo">Tipo de Campo</label>
+                <div class="col-md-10">
+                    @Html.DropDownList("idTipoCampo", new SelectList(Model.ListaTipoCampo, "Value", "Text"), htmlAttributes: new { @class = "control-label col-md-2 select-2" })
+                    <div id="addValoresCombo"></div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2" for="idTipoValorCampo">Tipo do valor de campo</label>
+                <div class="col-md-10">
+                    @Html.DropDownList("idTipoValorCampo", new SelectList(Model.ListaTipoValorCampo, "Value", "Text"), htmlAttributes: new { @class = "control-label col-md-2 select-2" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2" for="ValorCampo"> Valor do Campo</label>
+                <div class="col-md-10">
+                    <input class="form-control text-box col-md-3" id="ValorCampo" name="ValorCampo" type="text" value="">
+                    <input class="btn btn-success col-md-5" type="button" id="btnAdicinarCampoParaCombobox" value="Adicinar o campo para o Combobox" />
+                </div>
+
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2" for="DescricaoCampo"> Descrição do Campo</label>
+                <div class="col-md-10">
+                    <input class="form-control text-box col-md-3" id="descricaoCampo" name="DescricaoCampo" type="text" value="">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="button" id="btnAdiconarMaisCampos" value="Adicinar mais campos" class="btn btn-success" />
+                </div>
+            </div>
+            <span id="erro-quantidade-linha-obrigatorio"
+                  class="field-validation-valid text-danger"
+                  data-valmsg-for="table-campos"
+                  data-valmsg-replace="true">É obrigatório adicionar/cadastrar no minímo 10 campos.</span>
+            <br />
+            <span id="erro-minimo-tres-tipos-distintos-campos"
+                  class="field-validation-valid text-danger"
+                  data-valmsg-for="table-campos"
+                  data-valmsg-replace="true">Você deve cadastrar/adicionar no mínimo três tipos distintos/diferente de campos.</span>
+
+            <table class="table table-bordered table-responsive table-striped" id="table-campos">
+                <thead>
+                    <tr>
+                        <th>Tipo de Campo</th>
+                        <th>Tipo do valor de campo</th>
+                        <th>Valor do Campo</th>
+                        <th>Descrição do Campo</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </fieldset>
+        <hr />
+        <div class="form-group">
+            <div class="col-md-10">
+                <input type="submit" value="Salvar" class="btn btn-primary" id="btnSalvar" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Voltar para Home", "Index")
+</div>

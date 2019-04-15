@@ -1,0 +1,13 @@
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.AplicationService.Service\bin\Debug\AccessCorpFormulario.AplicationService.Service.dll
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.AplicationService.Service\bin\Debug\AccessCorpFormulario.AplicationService.Service.pdb
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.AplicationService.Service\obj\Debug\AccessCorpFormulario.AplicationService.Service.csprojAssemblyReference.cache
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.AplicationService.Service\obj\Debug\AccessCorpFormulario.AplicationService.Service.csproj.CoreCompileInputs.cache
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.AplicationService.Service\obj\Debug\AccessCorpFormulario.AplicationService.Service.dll
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.AplicationService.Service\obj\Debug\AccessCorpFormulario.AplicationService.Service.pdb
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.AplicationService.Service\obj\Debug\AccessCorpFormulario.AplicationService.Service.csproj.CopyComplete
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.AplicationService.Service\bin\Debug\AccessCorpFormulario.Domain.ModelView.dll
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.AplicationService.Service\bin\Debug\AccessCorpFormulario.Domain.ModelView.pdb
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.AplicationService.Service\bin\Debug\AccessCorpFormulario.Infrastructure.Database.CodeFirst.dll
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.AplicationService.Service\bin\Debug\AccessCorpFormulario.Infrastructure.Database.CodeFirst.pdb
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.AplicationService.Service\bin\Debug\AccessCorpFormulario.Infrastructure.Database.CodeFirst.dll.config
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.AplicationService.Service\bin\Debug\EntityFramework.xml

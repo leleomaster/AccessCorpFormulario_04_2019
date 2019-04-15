@@ -1,0 +1,12 @@
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Domain.ModelView\bin\Debug\AccessCorpFormulario.Domain.ModelView.dll
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Domain.ModelView\bin\Debug\AccessCorpFormulario.Domain.ModelView.pdb
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Domain.ModelView\obj\Debug\AccessCorpFormulario.Domain.ModelView.csprojAssemblyReference.cache
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Domain.ModelView\obj\Debug\AccessCorpFormulario.Domain.ModelView.csproj.CoreCompileInputs.cache
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Domain.ModelView\obj\Debug\AccessCorpFormulario.Domain.ModelView.dll
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Domain.ModelView\obj\Debug\AccessCorpFormulario.Domain.ModelView.pdb
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Domain.ModelView\obj\Debug\AccessCorpFormulario.Domain.ModelView.csproj.CopyComplete
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Domain.ModelView\bin\Debug\AccessCorpFormulario.Infrastructure.Database.CodeFirst.dll
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Domain.ModelView\bin\Debug\EntityFramework.dll
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Domain.ModelView\bin\Debug\AccessCorpFormulario.Infrastructure.Database.CodeFirst.pdb
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Domain.ModelView\bin\Debug\AccessCorpFormulario.Infrastructure.Database.CodeFirst.dll.config
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Domain.ModelView\bin\Debug\EntityFramework.xml

@@ -1,0 +1,14 @@
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Infrastructure.Database\bin\Debug\AccessCorpFormulario.Infrastructure.Database.dll
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Infrastructure.Database\bin\Debug\AccessCorpFormulario.Infrastructure.Database.pdb
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Infrastructure.Database\bin\Debug\Dapper.dll
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Infrastructure.Database\bin\Debug\Dapper.xml
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Infrastructure.Database\obj\Debug\AccessCorpFormulario.Infrastructure.Database.csprojAssemblyReference.cache
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Infrastructure.Database\obj\Debug\AccessCorpFormulario.Infrastructure.Database.csproj.CoreCompileInputs.cache
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Infrastructure.Database\obj\Debug\AccessCorpFormulario.Infrastructure.Database.csproj.CopyComplete
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Infrastructure.Database\obj\Debug\AccessCorpFormulario.Infrastructure.Database.dll
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Infrastructure.Database\obj\Debug\AccessCorpFormulario.Infrastructure.Database.pdb
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Infrastructure.Database\bin\Debug\AccessCorpFormulario.Infrastructure.Database.CodeFirst.dll
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Infrastructure.Database\bin\Debug\EntityFramework.dll
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Infrastructure.Database\bin\Debug\AccessCorpFormulario.Infrastructure.Database.CodeFirst.pdb
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Infrastructure.Database\bin\Debug\AccessCorpFormulario.Infrastructure.Database.CodeFirst.dll.config
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Infrastructure.Database\bin\Debug\EntityFramework.xml

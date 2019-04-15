@@ -1,0 +1,6 @@
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Domain.Domain\bin\Debug\AccessCorpFormulario.Domain.Domain.dll
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Domain.Domain\bin\Debug\AccessCorpFormulario.Domain.Domain.pdb
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Domain.Domain\obj\Debug\AccessCorpFormulario.Domain.Domain.csproj.CoreCompileInputs.cache
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Domain.Domain\obj\Debug\AccessCorpFormulario.Domain.Domain.dll
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Domain.Domain\obj\Debug\AccessCorpFormulario.Domain.Domain.pdb
+E:\Projetos\Access Corp\AccessCorpFormulario\AccessCorpFormulario.Domain.Domain\obj\Debug\AccessCorpFormulario.Domain.Domain.csprojAssemblyReference.cache

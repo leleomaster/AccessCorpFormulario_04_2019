@@ -1,0 +1,88 @@
+﻿@model IEnumerable<AccessCorpFormulario.Domain.ModelView.FormularioModelView>
+
+@{
+    ViewBag.Title = "Lista";
+}
+
+<h2>Lista</h2>
+
+<p>
+    @Html.ActionLink("Criar novo Formulário", "Cadastro")
+</p>
+<table class="table table-bordered table-responsive table-striped data-table-formulario">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeFormulario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataVencimentoInicio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataVencimentoFim)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Situacao)
+            </th>
+            <th>
+                Ação
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NomeFormulario)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataVencimentoInicio)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataVencimentoFim)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Situacao)
+                </td>
+                <td>
+                    @if (item.Ativo)
+                    {
+                        @Html.ActionLink("Exibir Formulário", "Exibir", new { id = item.IdFormulario })
+                    }
+                    else
+                    {
+                        <text>Nenhum</text>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@section Script{
+
+    <script>
+    $(function() {
+
+        var listaFormulario =  '@Html.Raw(Json.Encode(Model.ToList()))';
+        $('.data-table-formulario').DataTable({
+            "language": {
+                "lengthMenu": "Exibe _MENU_ Registros por página",
+                "search": "Procurar",
+                "paginate": { "previous": "Retorna", "next": "Avança" },
+                "zeroRecords": "Nada foi encontrado",
+                "info": "Exibindo página _PAGE_ de _PAGES_",
+                "infoEmpty": "Sem registros",
+                "infoFiltered": "(filtrado de _MAX_ regitros totais)"
+            },
+            "processing": true, // mostrar a progress bar
+            //"serverSide": true, // processamento no servidor
+            "filter": true, // habilita o filtro(search box)
+            "lengthMenu": [[3, 5, 10, 25, 50, -1], [3, 5, 10, 25, 50, "Todos"]],
+            "pageLength": 3, // define o tamanho da página
+        });
+    });
+
+    </script>
+}
